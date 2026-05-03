@@ -7,8 +7,12 @@ dist/
 build/
 *.spec
 
-# PyInstaller build artifacts
+# Build artifacts (PyInstaller / Nuitka)
 _pyinstaller_build/
+_nuitka_build/
+*.build/
+*.dist/
+*.onefile-build/
 
 # Local settings & backups (contain user paths + game files)
 settings.json

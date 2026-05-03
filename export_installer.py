@@ -253,79 +253,78 @@ def build_installer(game_root, files, output_base):
     if exe_built:
         print("  Exe:     WarInRapture_Install.exe")
     else:
-        print("  Exe:     NOT BUILT (PyInstaller unavailable)")
+        print("  Exe:     NOT BUILT (Nuitka unavailable)")
         print("           install.bat + installer_gui.py included as fallback")
     print("\n  To distribute: zip the entire TheWarInRapture2 folder.")
     print("  Users run WarInRapture_Install.exe to install/uninstall.")
 
 
 def _build_exe(output_dir, logo_path=None):
-    """Compile installer_gui.py into a standalone .exe using PyInstaller."""
-    # Check if PyInstaller is available
+    """Compile installer_gui.py into a standalone .exe using Nuitka."""
+    # Check if Nuitka is available
     try:
-        import PyInstaller
-        pyinstaller_cmd = [sys.executable, '-m', 'PyInstaller']
-    except ImportError:
-        # Try as a standalone command
-        try:
-            result = subprocess.run(['pyinstaller', '--version'],
-                                    capture_output=True, text=True, timeout=10)
-            if result.returncode == 0:
-                pyinstaller_cmd = ['pyinstaller']
-            else:
-                print("  PyInstaller not found. Install with: pip install pyinstaller")
-                return False
-        except (FileNotFoundError, subprocess.TimeoutExpired):
-            print("  PyInstaller not found. Install with: pip install pyinstaller")
+        result = subprocess.run(
+            [sys.executable, '-m', 'nuitka', '--version'],
+            capture_output=True, text=True, timeout=15)
+        if result.returncode != 0:
+            print("  Nuitka not found. Install with: pip install nuitka")
             return False
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        print("  Nuitka not found. Install with: pip install nuitka")
+        return False
 
     exe_name = "WarInRapture_Install"
-    # Use a temp dir for build artifacts (keep output clean)
-    build_tmp = SCRIPT_DIR / "_pyinstaller_build"
+    build_tmp = SCRIPT_DIR / "_nuitka_build"
     if build_tmp.exists():
         shutil.rmtree(str(build_tmp))
 
-    cmd = pyinstaller_cmd + [
+    cmd = [
+        sys.executable, '-m', 'nuitka',
         '--onefile',
-        '--windowed',
-        '--name', exe_name,
-        '--distpath', str(output_dir),
-        '--workpath', str(build_tmp / 'build'),
-        '--specpath', str(build_tmp),
-        '--clean',
-        '--noconfirm',
+        '--windows-console-mode=disable',
+        '--output-dir=%s' % str(build_tmp),
+        '--output-filename=%s.exe' % exe_name,
+        '--enable-plugin=tk-inter',
+        '--remove-output',
+        '--assume-yes-for-download',
     ]
     if logo_path and logo_path.exists():
-        cmd += ['--add-data', '%s%s.' % (str(logo_path), os.pathsep)]
+        cmd.append('--include-data-files=%s=installer_logo.png' % str(logo_path))
     cmd.append(str(INSTALLER_GUI))
 
-    print("  Running: %s" % ' '.join(cmd[-6:]))
+    print("  Running Nuitka (this may take a few minutes)...")
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
         if result.returncode == 0:
-            exe_path = output_dir / ("%s.exe" % exe_name)
-            if exe_path.exists():
+            # Nuitka places the exe in build_tmp
+            built_exe = build_tmp / ("%s.exe" % exe_name)
+            if not built_exe.exists():
+                # Search for it
+                for f in build_tmp.rglob("*.exe"):
+                    if exe_name.lower() in f.name.lower():
+                        built_exe = f
+                        break
+            if built_exe.exists():
+                final_exe = output_dir / ("%s.exe" % exe_name)
+                shutil.move(str(built_exe), str(final_exe))
                 print("  Built: %s (%.1f MB)" % (
-                    exe_path.name, exe_path.stat().st_size / 1024 / 1024))
-                # Clean up build artifacts
+                    final_exe.name, final_exe.stat().st_size / 1024 / 1024))
                 if build_tmp.exists():
                     shutil.rmtree(str(build_tmp), ignore_errors=True)
                 return True
             else:
-                print("  PyInstaller ran but exe not found at expected path.")
+                print("  Nuitka ran but exe not found in output.")
         else:
-            print("  PyInstaller failed (exit code %d)" % result.returncode)
+            print("  Nuitka failed (exit code %d)" % result.returncode)
             if result.stderr:
-                # Show last few lines of error
                 err_lines = result.stderr.strip().split('\n')
                 for line in err_lines[-5:]:
                     print("    %s" % line)
     except subprocess.TimeoutExpired:
-        print("  PyInstaller timed out (300s).")
+        print("  Nuitka timed out (600s).")
     except Exception as e:
-        print("  PyInstaller error: %s" % e)
+        print("  Nuitka error: %s" % e)
 
-    # Clean up on failure too
     if build_tmp.exists():
         shutil.rmtree(str(build_tmp), ignore_errors=True)
     return False
