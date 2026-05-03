@@ -1,56 +1,88 @@
 # Building the Installer Executable
 
-This document explains exactly how `WarInRapture_Install.exe` is built from source.
+This document explains exactly how the currently distributed `WarInRapture_Install.exe` was built from source, why it triggers antivirus false positives, and how the upcoming version resolves this.
 
-## What the Installer Is
+---
 
-The installer is a single Python script (`installer_gui.py`) compiled into a native Windows executable using **Nuitka**, which translates Python source code into C and compiles it with MSVC into a real `.exe`. There is no bytecode unpacker or bootloader — the result is a genuine native binary.
+## What the Installer Does
 
-The installer does **not** access the internet, modify system files, or do anything outside the BioShock 2 game directory. It:
+The installer is a single Python script (`installer_gui.py`) compiled into a standalone `.exe`. It does **not** access the internet, modify system files, or do anything outside the BioShock 2 game directory.
 
-1. Auto-detects the game install path via the Steam registry key
-2. Backs up original game files to `_WarInRapture_Backup/`
-3. Copies modded `.ini`, `.bsm`, `.U`, and `.lbf` files from the bundled `mod_files/` folder
+All it does:
+
+1. Auto-detects the BioShock 2 Remastered install path via the Steam registry key
+2. Backs up original game files to a `_WarInRapture_Backup/` folder
+3. Copies modded `.ini`, `.bsm`, `.U`, and `.lbf` files from the bundled `mod_files/` directory into the game directory
 4. Renames `ConfigINI.IBF` → `ConfigINI.IBF.bak` so the engine reads loose INI overrides
 
 Uninstall reverses all of the above by restoring from backup.
 
+The installer uses only Python standard library modules: `tkinter`, `shutil`, `os`, `sys`, `threading`, `winreg`, `pathlib`, `ctypes`. **Zero third-party runtime dependencies.**
+
 ---
 
-## Prerequisites
+## Current Version (PyInstaller Build)
 
-- **Python 3.10+** (tested with 3.14) — https://www.python.org/downloads/
-- **Nuitka** — Python-to-C compiler
-- **MSVC** (Microsoft Visual C++) — included with Visual Studio Build Tools or Visual Studio Community
-  - Install "Desktop development with C++" workload
-  - https://visualstudio.microsoft.com/visual-cpp-build-tools/
+The version currently uploaded to Nexus Mods was built with **PyInstaller** using the following command:
 
-### Install Nuitka and dependencies
+### Prerequisites
+
+```bash
+pip install pyinstaller
+```
+
+### Build Command
+
+```bash
+pyinstaller ^
+    --onefile ^
+    --windowed ^
+    --name WarInRapture_Install ^
+    --add-data "installer_logo.png;." ^
+    installer_gui.py
+```
+
+**Flag explanation:**
+| Flag | Purpose |
+|------|---------|
+| `--onefile` | Bundle everything into a single `.exe` |
+| `--windowed` | Hide the console window (GUI app) |
+| `--name` | Name the output executable |
+| `--add-data` | Embed the logo image inside the exe |
+
+### Why It Triggers Antivirus
+
+**PyInstaller** bundles the Python interpreter + bytecode into a self-extracting archive with a bootloader stub. At runtime, it:
+1. Extracts bundled files to a temporary directory (`%TEMP%\_MEIxxxxx`)
+2. Loads the Python DLL from that temp location
+3. Executes the extracted bytecode
+
+This unpack-and-execute behavior closely mimics how actual malware operates, which causes heuristic-based antivirus scanners to flag it. **This affects virtually every PyInstaller-built application**, not just ours.
+
+This is a well-documented, long-standing industry issue:
+- https://github.com/pyinstaller/pyinstaller/issues?q=is%3Aissue+virus+false+positive
+- Thousands of legitimate open-source tools built with PyInstaller face the same problem
+
+**The executable contains no malicious code.** You can verify this by:
+1. Reading `installer_gui.py` in this repository — it is the complete source
+2. Building it yourself with the command above
+3. Comparing the behavior: it only reads/writes files within the game directory
+
+---
+
+## Upcoming Version (Nuitka Build)
+
+The next release will be built with **Nuitka** instead, which compiles Python source code to C and then to a native executable via MSVC. The result is a real native Windows binary — no bootloader, no temp extraction, no bytecode unpacking.
+
+### Prerequisites
 
 ```bash
 pip install nuitka zstandard ordered-set
 ```
 
----
+Also requires MSVC (Microsoft Visual C++) — included with [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) ("Desktop development with C++" workload).
 
-## Build Steps
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/NykoDesigns/TheWrathOfLamb.git
-cd TheWrathOfLamb
-```
-
-### 2. Review the source
-
-The entire installer is a single file:
-
-- **`installer_gui.py`** — tkinter GUI that performs install/uninstall
-
-It uses only Python standard library modules (`tkinter`, `shutil`, `os`, `sys`, `threading`, `winreg`, `pathlib`, `ctypes`). No third-party runtime dependencies.
-
-### 3. Compile with Nuitka
+### Build Command
 
 ```bash
 python -m nuitka ^
@@ -64,52 +96,19 @@ python -m nuitka ^
     installer_gui.py
 ```
 
-**Flag explanation:**
-| Flag | Purpose |
-|------|---------|
-| `--onefile` | Produce a single standalone `.exe` |
-| `--windows-console-mode=disable` | Hide the console window (GUI app) |
-| `--output-filename=...` | Name the output executable |
-| `--enable-plugin=tk-inter` | Bundle tkinter (the GUI framework) |
-| `--include-data-files=...` | Embed the logo image inside the exe |
-| `--assume-yes-for-download` | Auto-download Nuitka helper tools if needed |
-| `--remove-output` | Clean up intermediate C/build files after compilation |
-
-### 4. Verify the output
-
-The build produces `WarInRapture_Install.exe` (~9 MB). You can verify it:
-
-```bash
-# Check it runs
-.\WarInRapture_Install.exe
-
-# Check file properties — it will show as a native Windows PE executable
-# No Python bootloader, no self-extracting archive
-```
+This produces a ~9 MB native `.exe` that should not trigger antivirus heuristics.
 
 ---
 
-## Alternative: Run Without Compiling
+## Run Without Compiling
 
-If you don't want to compile, you can run the installer directly with Python:
+If you prefer not to compile at all, you can run the installer directly with Python:
 
 ```bash
 python installer_gui.py
 ```
 
 This requires Python 3.10+ with tkinter (included in standard Windows Python installs).
-
----
-
-## Why Does the Old Version Trigger Antivirus?
-
-The previous version was built with **PyInstaller**, which works differently from Nuitka:
-
-- **PyInstaller** bundles Python bytecode into a self-extracting archive with a bootloader stub. At runtime, it extracts files to a temp directory and executes them. This unpacking behavior triggers heuristic-based antivirus scanners because it resembles malware behavior.
-- **Nuitka** compiles Python source to C code, then compiles the C to a native executable via MSVC. The result is a real `.exe` with no unpacker, no temp extraction, and no bootloader — just native machine code.
-
-This is a well-documented industry issue with PyInstaller:
-https://github.com/pyinstaller/pyinstaller/issues?q=is%3Aissue+virus+false+positive
 
 ---
 
@@ -132,4 +131,4 @@ TheWrathOfLamb/
 │   └── dlc_effects_builder.py   # DLC effects builder
 ```
 
-Only `installer_gui.py` and `installer_logo.png` are used to build the distributed `.exe`. The `core/` modules and other scripts are developer tools used to create the mod files — they are not part of the installer.
+Only `installer_gui.py` and `installer_logo.png` are used to build the distributed `.exe`. The `core/` modules and other scripts are the developer tools used to generate the mod files — they are not part of the installer.
