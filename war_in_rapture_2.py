@@ -4453,68 +4453,61 @@ class SpawnModManager:
                 shutil.copy2(str(logo_src), str(output_dir / "installer_logo.png"))
                 self._log("  Copied installer_logo.png\n")
 
-            # ── Build .exe installer via Nuitka ────────────────────────
+            # ── Build .exe installer via PyInstaller ──────────────────
             exe_built = False
             if installer_gui_src.exists():
-                self._log("\n[7] Building installer .exe with Nuitka...\n")
-                self._log("  (native C compilation — this may take a few minutes)\n")
+                self._log("\n[7] Building installer .exe with PyInstaller...\n")
+                try:
+                    import PyInstaller
+                    pyinstaller_cmd = [sys.executable, '-m', 'PyInstaller']
+                except ImportError:
+                    pyinstaller_cmd = ['pyinstaller']
 
                 exe_name = "WarInRapture_Install"
-                build_tmp = BIOMOD_DIR / "_nuitka_build"
+                build_tmp = BIOMOD_DIR / "_pyinstaller_build"
                 if build_tmp.exists():
                     shutil.rmtree(str(build_tmp))
 
-                cmd = [
-                    sys.executable, '-m', 'nuitka',
-                    '--onefile',
-                    '--windows-console-mode=disable',
-                    '--output-dir=%s' % str(build_tmp),
-                    '--output-filename=%s.exe' % exe_name,
-                    '--enable-plugin=tk-inter',
-                    '--remove-output',
-                    '--assume-yes-for-download',
+                cmd = pyinstaller_cmd + [
+                    '--onefile', '--windowed',
+                    '--name', exe_name,
+                    '--distpath', str(output_dir),
+                    '--workpath', str(build_tmp / 'build'),
+                    '--specpath', str(build_tmp),
+                    '--clean', '--noconfirm',
                 ]
                 if logo_src.exists():
-                    cmd.append('--include-data-files=%s=installer_logo.png'
-                               % str(logo_src))
+                    cmd += ['--add-data', '%s%s.' % (str(logo_src), os.pathsep)]
                 cmd.append(str(installer_gui_src))
-
-                self._log("  Running Nuitka...\n")
+                self._log("  Running PyInstaller...\n")
                 try:
                     result = subprocess.run(
-                        cmd, capture_output=True, text=True, timeout=600)
+                        cmd, capture_output=True, text=True, timeout=300)
                     if result.returncode == 0:
-                        built_exe = build_tmp / ("%s.exe" % exe_name)
-                        if not built_exe.exists():
-                            for f in build_tmp.rglob("*.exe"):
-                                if exe_name.lower() in f.name.lower():
-                                    built_exe = f
-                                    break
-                        if built_exe.exists():
-                            final_exe = output_dir / ("%s.exe" % exe_name)
-                            shutil.move(str(built_exe), str(final_exe))
+                        exe_path = output_dir / ("%s.exe" % exe_name)
+                        if exe_path.exists():
                             self._log("  Built: %s (%.1f MB)\n" % (
-                                final_exe.name,
-                                final_exe.stat().st_size / 1024 / 1024))
+                                exe_path.name,
+                                exe_path.stat().st_size / 1024 / 1024))
                             exe_built = True
                         else:
-                            self._log("  WARNING: Nuitka ran but exe not found.\n")
+                            self._log("  WARNING: PyInstaller ran but exe not found.\n")
                     else:
-                        self._log("  WARNING: Nuitka failed (exit %d)\n"
+                        self._log("  WARNING: PyInstaller failed (exit %d)\n"
                                   % result.returncode)
                         if result.stderr:
                             for line in result.stderr.strip().split('\n')[-3:]:
                                 self._log("    %s\n" % line)
                 except subprocess.TimeoutExpired:
-                    self._log("  WARNING: Nuitka timed out (600s).\n")
+                    self._log("  WARNING: PyInstaller timed out.\n")
                 except FileNotFoundError:
-                    self._log("  WARNING: Nuitka not installed.\n"
-                              "  Install with: pip install nuitka\n")
+                    self._log("  WARNING: PyInstaller not installed.\n"
+                              "  Install with: pip install pyinstaller\n")
 
                 if build_tmp.exists():
                     shutil.rmtree(str(build_tmp), ignore_errors=True)
             else:
-                self._log("\n[7] installer_gui.py not found — skipping .exe\n")
+                self._log("\n[6] installer_gui.py not found — skipping .exe\n")
 
             # Fallback: copy Python script + launcher bat
             if not exe_built:
