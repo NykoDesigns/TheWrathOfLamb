@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# PyInstaller build artifacts
+_pyinstaller_build/
+
+# Local settings & backups (contain user paths + game files)
+settings.json
+backups/
+
+# Build outputs
+installer_output/
+test_output/
+
+# Logs & reports
+logs/
+reports/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Diversion
+.diversion/
+.dvignore
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

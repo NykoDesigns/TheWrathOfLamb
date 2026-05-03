@@ -1,0 +1,1737 @@
+{
+  "Abyss.bsm_AggressorSpawner_39_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_41_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_37_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_38_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_40_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_54_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_44_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_46_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_45_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_51_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_42_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_43_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_36_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_50_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_49_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_47_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_48_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_53_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_52_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_34_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_35_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_AggressorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_ProtectorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_ProtectorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_ProtectorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_33_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_25_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_24_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_23_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_26_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_27_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Abyss.bsm_SecurityBotSpawner_29_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Eden.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Eden.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Eden.bsm_SecurityBotSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Eden.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Eden_CellBlock.bsm_SecurityBotSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_44_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_31_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_32_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_46_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_33_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_39_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_41_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_37_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_43_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_34_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_42_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_35_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_45_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_36_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_38_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Education.bsm_AggressorSpawner_40_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_30_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_35_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_34_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_33_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_31_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_22_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_16_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_14_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_15_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_19_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_28_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_29_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_52_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_53_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_21_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_26_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_27_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_20_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_51_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_25_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_23_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_AggressorSpawner_24_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_14_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_ProtectorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_SecurityBotSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gallery.bsm_SecurityBotSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "GalleryCarousel.bsm_SecurityBotSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_51_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_21_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_20_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_24_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_23_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_53_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_22_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_19_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_16_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_18_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_17_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_46_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_48_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_AggressorSpawner_47_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_ProtectorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_SecurityBotSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Ghetto.bsm_SecurityBotSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_105_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_98_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_99_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_103_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_109_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_108_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_125_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_97_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_106_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_104_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_123_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_119_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_120_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_126_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_124_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_111_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_83_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_110_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_101_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_100_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_93_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_113_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_122_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_82_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_115_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_67_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_121_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_96_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_90_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_89_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_86_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_72_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_71_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_70_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_91_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_69_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_66_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_85_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_127_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_88_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_112_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_68_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_107_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_79_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_114_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_95_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_94_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_81_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_80_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_73_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_74_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_75_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_134_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_132_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_133_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_118_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_84_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_128_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_76_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_102_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_77_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_92_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_AggressorSpawner_78_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Gulag.bsm_SecurityBotSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_21_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_14_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_22_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_18_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_17_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_20_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_16_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_19_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_15_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_ProtectorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_17_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_15_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_18_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_16_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_20_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_19_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_14_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_A.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_49_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_23_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_15_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_19_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_16_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_20_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_17_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_18_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_22_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_48_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_14_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_21_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_50_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_AggressorSpawner_47_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_4_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_ProtectorSpawner_3_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_12_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_11_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_10_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_13_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_B.bsm_SecurityBotSpawner_9_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_C.bsm_SecurityBotSpawner_2_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_C.bsm_SecurityBotSpawner_1_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_C.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Minerva_C.bsm_SecurityBotSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_24_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_23_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_36_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_25_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_22_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_28_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_29_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_32_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_30_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_33_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_31_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_39_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_41_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_37_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_38_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_40_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_42_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_43_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_34_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_27_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_26_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_AggressorSpawner_35_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_ProtectorSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_ProtectorSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_ProtectorSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_ProtectorSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_SecurityBotSpawner_7_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_SecurityBotSpawner_5_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_SecurityBotSpawner_8_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  },
+  "Redlight.bsm_SecurityBotSpawner_6_dup0": {
+    "dx": 0,
+    "dy": 0,
+    "dz": 0
+  }
+}
