@@ -10,6 +10,7 @@ build/
 # Build artifacts (PyInstaller / Nuitka)
 _pyinstaller_build/
 _nuitka_build/
+_nuitka_test/
 *.build/
 *.dist/
 *.onefile-build/
